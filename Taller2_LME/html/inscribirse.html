@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="../css/estilo.css" rel="stylesheet" type="text/css">
+    <link href="../css/form.css" rel="stylesheet" type="text/css">
+    <script src="https://kit.fontawesome.com/ec3da690e2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <a href="../html/inicio.html"><img src="../img/iconpoo.png" class="logo" alt="logo"></a>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="../html/inicio.html">Inicio</a></li>
+                <li><a href="../html/IndexAM.html">El club</a></li>
+                <li><a href="#">Actividades</a></li>
+                <li><a href="#">Torneo</a></li>
+                <li><a href="../html/inscribirse.html">Incripción en linea</a></li>
+                <li><a href="../html/videos.html">Videos</a></li>
+            </ul>
+        </nav>
+       
+    </header>
+    <div id="titulo">
+    <h1>-Inscribete-</h1>
+    </div>
+
+<div id="texto">
+
+<p id="text" style="text-align: center;">Lorem ipsum dolor sit amet consectetur adipiscing 
+    elit suscipit, ut habitasse volutpat ridiculus scelerisque 
+    pellentesque nibh curae, laoreet hac gravida tincidunt non 
+    malesuada viverra. Urna auctor ornare nec suspendisse tincidunt ultrices 
+    mollis platea dapibus condimentum dignissim, arcu mauris quis convallis 
+    placerat dictum vulputate vivamus scelerisque parturient tellus, imperdiet tempus 
+    sodales congue odio torquent felis eleifend tortor aliquet. Laoreet varius viverra 
+    dapibus aliquam arcu turpis ante vehicula ac metus diam ridiculus malesuada, 
+    luctus torquent vel nibh magna congue nulla pellentesque magnis himenaeos gravida habitant.</p>
+</div>
+    <div id="formu" >
+        <section id="form" >
+        <form action="inicio.html" method="POST" >
+        
+       <label for="nombre" id="label1"><b>Nombres:</b></label>
+       <input type="text" placeholder="Escribe tus Nombres" maxlength="25" name="nombres" id="nombre" pattern="{a-z}{A-Z}" required>
+
+       <br><br>
+       <label for="apellido" id="label2"><b>Apellidos:</b></label>
+       <input type="text" placeholder="Escribe tus Apellidos" maxlength="25" name="apellidos" id="apellido" pattern="{a-z}{A-Z}" required> 
+       <br><br>
+       <label for="fecha" id="label3"><b>Fecha de nacimiento:</b></label>
+       <input type="date" id="fecha" name="fechana"
+       value="2019-01-01"
+       min="1970-01-01" max="2019-01-01" required>
+       <br><br>
+       <label for="edad"><b>Edad:</b></label>
+       <input type="number" name="numeedad" id="edad" min="5" max="80" pattern="{5,80}" required>
+       <br><br>
+       <label for="genero" id="label4"><b>Genero:</b></label>
+       <input type="radio" name="generos" id="genero" required> <b>Masculino</b>
+       <input type="radio" name="generos" id="genero" required> <b>Femenino</b>
+       <br><br>
+       <label for="correo"id="label5"><b>Correo electronico:</b></label>
+       <input type="email" placeholder="Escribe tu correo electronico" maxlength="100" id="correo" name="correos"  pattern="[a-z0-9._%+-]+@" required>
+       <br><br>
+       <label for="departamento" id="label6"><b>Departamento:</b></label>
+       <select name="departamentos" id="departamento">
+        <option>Ahuachapán</option>
+        <option>Santa Ana</option>
+        <option>Sonsonate</option>
+        <option>Usulután</option>
+        <option>Morazán</option>
+        <option>La Unión</option>
+        <option>Chalatenango</option>
+        <option>Cuscatlan</option>
+        <option>San Salvador</option>
+        <option>La paz</option>       
+        <option>Cabañas</option> 
+        <option>San vicente</option>
+        </select>
+        <br><br>
+        <label for="domicilio"><b>Escriba su domicilio:</b></label>
+        <input type="text" name="domicilios" id="domicilio" style="height: 70px; width: 250px;" required>
+        <br><br>
+        <input type="submit" value="Registrarse">
+       </form> 
+
+       </section> 
+
+        </div>
+
+        <div class="footer-contenedor">
+            <div class="footer-bottom">
+                <p>Copyright &copy; 2021, Artes Marciales by Andrés Fernández & Luis Monge</p>
+                    <div class="footer-iconos">
+                        <ul>
+                            <li><a href="" target="_blank"><img id="img1" src="../img/facebook.png" alt=""></a></li>
+                            <li><a href="" target="_blank"><img id="img2"src="../img/twitter.png" alt=""></a></li>
+                            <li><a href="" target="_blank"><img id="img3"src="../img/instagram.png" alt=""></i> </a></li>
+                            <li><a href="" target="_blank"><img id="img4"src="../img/youtube.png" alt=""></a></li>
+                        </ul>
+                    </div>
+            </div>
+        </div>    
+        
+</body>
+</html>
