@@ -1,14 +1,4 @@
-
-<!DOCTYPE html>
-<html>
-  <head>
-    <tittle>Index</tittle>
-    <meta charset="utf-8">
-  </head>
-  <body>
-  <div>
-      <a href="../html/inicio.htlm"> Inicio</a>
+   #Taller2-#2-#20
+   <a href="https://taller2lme.github.io/Taller2-2-20/Taller2_LME/html/inicio.html"> Inicio</a>
     
-  </div> 
-  </body>
-</html>
+
