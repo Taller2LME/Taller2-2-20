@@ -7,7 +7,7 @@
   </head>
   <body>
   <div>
-      <a href="html/inicio.htlm"> Inicio</a>
+      <a href="../html/inicio.htlm"> Inicio</a>
     
   </div> 
   </body>
