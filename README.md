@@ -7,9 +7,9 @@ Taller2 by Andrés Eduardo Fernández Vásquez #2 &amp; Luis Antonio Monge Pére
     <meta charset="utf-8">
   </head>
   <body>
-    <div>
+  <div>
       <a href="html/inicio.htlm"> Inicio</a>
     
-    </div>
+  </div> 
   </body>
 </html>
