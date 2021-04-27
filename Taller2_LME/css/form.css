@@ -1,0 +1,24 @@
+#formu{
+margin-top: -12%;
+margin-left: 60%;
+margin-right: 13%;
+border: red 2px solid;
+
+
+}
+#form{
+    margin: 5%;  
+    font-family: 'Open Sans', sans-serif;
+}
+#titulo{
+    font-family: 'Noto Sans JP', sans-serif;
+    margin-left: 40%;
+    margin-top: 4%;
+    color:black;
+}
+#texto{
+    margin-right: 45%;
+    margin-left: 1%;
+    margin-top: 8%;
+    font-family: 'Roboto Mono', monospace;
+}
